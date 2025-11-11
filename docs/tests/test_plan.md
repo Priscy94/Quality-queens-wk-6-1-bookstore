@@ -17,6 +17,7 @@
 
 System Under Test: Bookstore app (e-commerce platform)  
 Technology Stack: React, Tailwind CSS, JavaScript  
+Environment:Latest 2 of Chrome/Firefox/Safari/Microoft Edge; responsive breakpoints 
 
 ### Features Under Test
 
@@ -88,14 +89,14 @@ This test plan defines the strategy for validating the Bookstore App’s core fe
 |            Activity           | Start Date | End Date |
 |-------------------------------|------------|----------|
 |Planning and setup             | 31/10/2025 | 05/11/2025|
-|Test Design and Early Execution|||
-|Final Execution and Reporting  |||
+|Test Design and Early Execution|06/11/2025|11/11/2025|
+|Final Execution and Reporting  |10/112025/|18/11/2025|
 
 # Roles and Responsibility 
 | Name              | Role        |Responsibility|
 |-------------------|-------------|-----------------|  
-||Test Manager|Planning, scheduling, coordination, metric tracking|
-||Risk analyst|Risk identification, prioritization, test design linkage|     
+|Prisca Wamboka|Test Manager|Planning, scheduling, coordination, metric tracking|
+|Ivy Nagide|Risk analyst|Risk identification, prioritization, test design linkage|     
 |Thembisile Nkambule|Test executor|Execution, evidence capture, defect logging|
 
 # Risks and Mitigations
