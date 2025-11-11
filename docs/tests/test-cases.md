@@ -7,44 +7,53 @@
 
 ---
 
+# ✅ Test Cases — Online Bookstore System
+
+## Legend
+
+- **Role:** U (User), A (Admin)
+- **FR Code:** Maps to functional requirements traced from SRS
+
+---
+
 ### 1. Book Browsing & Search
 
-| ID         | Title                         | Pre-Conditions          | Steps                                                 | Expected Result                                   | FR Code | Evidence                |
-| ---------- | ----------------------------- | ----------------------- | ----------------------------------------------------- | ------------------------------------------------- | ------- | ----------------------- |
-| TC-BOOK-01 | View All Books from Home Page | User logged in or guest | 1. Visit home page 2. Scroll book listings            | All available books displayed in grid/card format | FR-B01  | screenshots/book-01.png |
-| TC-BOOK-02 | View Book Details Page        | Book data exists        | 1. Click any book card 2. View details                | Title, author, price & description displayed      | FR-B02  |                         |
-| TC-BOOK-03 | Search book by full title     | Books seeded            | 1. Use search bar 2. Enter exact book title 3. Search | Matching book(s) displayed                        | FR-B03  |                         |
-| TC-BOOK-04 | Search using partial keyword  | Books seeded            | 1. Type partial term e.g., “pot” for “Harry Potter”   | Suggested / filtered results displayed            | FR-B03  |                         |
+| ID         | Title                         | Pre-Conditions          | Steps                                                 | Expected Result                                   | FR Code | Evidence                | Status     |
+| ---------- | ----------------------------- | ----------------------- | ----------------------------------------------------- | ------------------------------------------------- | ------- | ----------------------- | ---------- |
+| TC-BOOK-01 | View All Books from Home Page | User logged in or guest | 1. Visit home page 2. Scroll book listings            | All available books displayed in grid/card format | FR-B01  | screenshots/book-01.png | PASS       |
+| TC-BOOK-02 | View Book Details Page        | Book data exists        | 1. Click any book card 2. View details                | Title, author, price & description displayed      | FR-B02  |                         | PASS       |
+| TC-BOOK-03 | Search book by full title     | Books seeded            | 1. Use search bar 2. Enter exact book title 3. Search | Matching book(s) displayed                        | FR-B03  |                         | Not Tested |
+| TC-BOOK-04 | Search using partial keyword  | Books seeded            | 1. Type partial term e.g., “pot” for “Harry Potter”   | Suggested / filtered results displayed            | FR-B03  |                         | PASS       |
 
 ---
 
 ### 2. Shopping Cart
 
-| ID         | Title                 | Pre-Conditions      | Steps                                       | Expected Result                                 | FR Code | Evidence                |
-| ---------- | --------------------- | ------------------- | ------------------------------------------- | ----------------------------------------------- | ------- | ----------------------- |
-| TC-CART-01 | Add a book to cart    | Logged in           | 1. Open book details 2. Click “Add to Cart” | Cart count increments and item appears in cart  | FR-C01  | screenshots/cart-01.png |
-| TC-CART-02 | View cart items       | Items in cart       | 1. Click cart icon                          | All added books displayed with price & quantity | FR-C02  | screenshots/cart-02.png |
-| TC-CART-03 | Remove item from cart | Item exists in cart | 1. Click “Remove” beside any item           | Item removed and totals updated                 | FR-C02  | screenshots/cart-03.png |
+| ID         | Title                 | Pre-Conditions      | Steps                                       | Expected Result                                 | FR Code | Evidence | Status |
+| ---------- | --------------------- | ------------------- | ------------------------------------------- | ----------------------------------------------- | ------- | -------- | ------ |
+| TC-CART-01 | Add a book to cart    | Logged in           | 1. Open book details 2. Click “Add to Cart” | Cart count increments and item appears in cart  | FR-C01  |          | PASS   |
+| TC-CART-02 | View cart items       | Items in cart       | 1. Click cart icon                          | All added books displayed with price & quantity | FR-C02  |          | PASS   |
+| TC-CART-03 | Remove item from cart | Item exists in cart | 1. Click “Remove” beside any item           | Item removed and totals updated                 | FR-C02  |          | PASS   |
 
 ---
 
 ### 3. Checkout & Payment
 
-| ID        | Title                          | Pre-Conditions     | Steps                                                     | Expected Result                                 | FR Code | Evidence               |
-| --------- | ------------------------------ | ------------------ | --------------------------------------------------------- | ----------------------------------------------- | ------- | ---------------------- |
-| TC-PAY-01 | Proceed to Checkout            | Cart has ≥1 item   | 1. Open cart 2. Click “Checkout”                          | Redirected to checkout page                     | FR-P01  | screenshots/pay-01.png |
-| TC-PAY-02 | Complete Payment               | Checkout page open | 1. Select M-Pesa 2. Enter phone number 3. Confirm payment | Payment success message & receipt generated     | FR-P02  |                        |
-| TC-PAY-03 | Payment Cancellation / Failure | Payment initiated  | 1. Cancel transaction from modal                          | Error message displayed, cart remains unchanged | FR-P02  | screenshots/pay-03.png |
+| ID        | Title                          | Pre-Conditions     | Steps                                                     | Expected Result                                 | FR Code | Evidence               | Status     |
+| --------- | ------------------------------ | ------------------ | --------------------------------------------------------- | ----------------------------------------------- | ------- | ---------------------- | ---------- |
+| TC-PAY-01 | Proceed to Checkout            | Cart has ≥1 item   | 1. Open cart 2. Click “Checkout”                          | Redirected to checkout page                     | FR-P01  | screenshots/pay-01.png | Not Tested |
+| TC-PAY-02 | Complete Payment               | Checkout page open | 1. Select M-Pesa 2. Enter phone number 3. Confirm payment | Payment success message & receipt generated     | FR-P02  |                        | Not Tested |
+| TC-PAY-03 | Payment Cancellation / Failure | Payment initiated  | 1. Cancel transaction from modal                          | Error message displayed, cart remains unchanged | FR-P02  |                        | PASS       |
 
 ---
 
 ### 4. Admin Inventory Management
 
-| ID          | Title             | Pre-Conditions       | Steps                                                | Expected Result                                 | FR Code | Evidence                 |
-| ----------- | ----------------- | -------------------- | ---------------------------------------------------- | ----------------------------------------------- | ------- | ------------------------ |
-| TC-ADMIN-01 | Admin Login       | Admin account exists | 1. Login with admin credentials                      | Redirect to Admin Dashboard                     | FR-AD01 | screenshots/admin-01.png |
-| TC-ADMIN-02 | Add New Book      | Logged in as Admin   | 1. Navigate to Inventory 2. Add book details 3. Save | New book appears in product list                | FR-AD02 | screenshots/admin-02.png |
-| TC-ADMIN-03 | Edit Book Details | Book exists          | 1. Select book 2. Edit fields 3. Save                | Updated information reflects in product listing | FR-AD03 | screenshots/admin-03.png |
+| ID          | Title             | Pre-Conditions       | Steps                                                | Expected Result                                 | FR Code | Evidence                 | Status     |
+| ----------- | ----------------- | -------------------- | ---------------------------------------------------- | ----------------------------------------------- | ------- | ------------------------ | ---------- |
+| TC-ADMIN-01 | Admin Login       | Admin account exists | 1. Login with admin credentials                      | Redirect to Admin Dashboard                     | FR-AD01 | screenshots/admin-01.png | PASS       |
+| TC-ADMIN-02 | Add New Book      | Logged in as Admin   | 1. Navigate to Inventory 2. Add book details 3. Save | New book appears in product list                | FR-AD02 |                          | Not Tested |
+| TC-ADMIN-03 | Edit Book Details | Book exists          | 1. Select book 2. Edit fields 3. Save                | Updated information reflects in product listing | FR-AD03 |                          | Not Tested |
 
 ---
 
