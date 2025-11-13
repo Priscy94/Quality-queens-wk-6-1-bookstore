@@ -1,4 +1,5 @@
-# 🐞 Defect Log — Online Bookstore System
+
+\# 🐞 Defect Log — Online Bookstore System
 
 | Bug ID        | Summary                                                          | Severity | Priority | Environment                 | Affected FR(s)                                         | Status      | Date Reported |
 | ------------- | ---------------------------------------------------------------- | -------- | -------- | --------------------------- | ------------------------------------------------------ | ----------- | ------------- |

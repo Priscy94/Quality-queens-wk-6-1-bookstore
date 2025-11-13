@@ -1,3 +1,4 @@
+
 # 📘 Functional Requirements — Book Store App
 
 This specification is explicit and test‑ready. It defines observable behaviors, data and UI contracts, acceptance criteria, and scenario checklists.
