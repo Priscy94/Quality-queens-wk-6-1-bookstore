@@ -1,9 +1,9 @@
 # Test Plan document for a Bookstore E-commerce Platform
 
-*Level:* Intermediate QA
-*Course:* Software Testing & Quality Assurance  
-*Project Type:* Final Project 
-*Submission Date:* 05/11/2025
+**Level:** Intermediate QA
+**Course:** Software Testing & Quality Assurance  
+**Project Type:** Final Project 
+**Submission Date:** 05/11/2025
 
 ## Team Information
 
