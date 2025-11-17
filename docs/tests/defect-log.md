@@ -7,8 +7,8 @@
 | BUG-CART-02   | “Buy Now” updates cart count but does not redirect to cart| Major| High | Firefox v118 / Ubuntu 22.04 | FR-O01 (Cart Operations), FR-O02 (Checkout Wizard)| In Progress | 05/11/2025    |
 | BUG-SEARCH-03 | Navbar search does not return results for available catalog items   | Major| Medium | Edge v119 / Windows 11 | FR-M01 (Catalog CRUD), FR-Catalog (Search/Filter/Sort) | Open | 05/11/2025    |
 | BUG-PRICE-04  | Product prices do not update after currency configuration change | Major| High| Chrome v119 / Windows 10 | FR-O01 (Price Display Logic), FR-X01 (Compatibility) | Open | 06/11/2025 |
-| BUG-CART-03   | Buttons hover not active(Proceed checkout,Next, Payment)| Low | Low | Chrome v119 / Windows 10 |FR-X0 (Accessibility)| Open|13/11/2025|
-|BUG-CHECKOUT-01|Form does not validate that the input texts are alphabets or numbers when according to whats required| Low |Low|Chrome v119 / Windows 10|FR-O02 (Checkout wizard )| Open| 13/11/2025|
+| BUG-CART-03   | Buttons hover not active(Proceed checkout,Next, Payment)| Minor | Low | Chrome v119 / Windows 10 |FR-X0 (Accessibility)| Open|13/11/2025|
+|BUG-CHECKOUT-01|Form does not validate that the input texts are alphabets or numbers when according to whats required| Minor |Low|Chrome v119 / Windows 10|FR-O02 (Checkout wizard )| Open| 13/11/2025|
 | BUG-CART-04   |Stock is unlimited(Can add any quantity of an item)| Critical|High|Chrome v119 / Windows 10 |FR-O01 (Cart operations)| Open|13/11/2025|
 |BUG-ADMIN-01   |Admin not able to do the CRUD operations| Critical| High | Chrome v119 / Windows 10 |FR-M01 (Catalog CRUD)| Open | 13/11/2025|
 |BUG-ADMIN-02   |Admin does not receive low‑stock warnings| Critical | High |Chrome v119 / Windows 10 |FR-M02 (Inventory) | Open |13/11/2025|
@@ -113,7 +113,7 @@ Conversion logic not being executed or cached values blocking update.
 ### BUG-CART-03 — Buttons Hover Not Active(Proceed checkout,Next, Payment)
 
 **Affected FR(s):** FR-X0 (Accessibility)  
-**Severity:**   
+**Severity:**   Minor
 **Priority:** Low  
 **Environment:** Chrome v119, Windows 10
 
@@ -141,7 +141,7 @@ CSS button hover not active
 ### BUG-CHECKOUT-01 — Form does not validate that the input texts are alphabets or numbers  according to whats required
 
 **Affected FR(s):** FR-O02 (Checkout wizard )
-**Severity:**   
+**Severity:**   Minor
 **Priority:** Low  
 **Environment:** Chrome v119, Windows 10
 
