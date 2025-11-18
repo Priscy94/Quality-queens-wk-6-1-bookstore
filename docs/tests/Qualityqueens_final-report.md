@@ -169,7 +169,7 @@ The remaining risks associated with releasing the application are:
   ![TC-CART-05](screenshots/TC-CART-05.png)
 
 ## 7.4 Release Recommendation & Risk-Based Mitigations
-- Based on our comprehensive testing and the current status of the application, the QA team **DOES NOT RECOMMEND RELEASE** for Bookworm's Corner v1.0.0.
+- Based on our comprehensive testing and the current status of the application, the QA team **DOES NOT RECOMMEND RELEASE** for E-commerce Bookstore application, v1.0.0.
 - The application must undergo another development cycle to address the critical defects. The following recommendations are provided to mitigate the identified risks and guide the path to a successful release:
 
 ### Recommendations Aligned with Risks:
