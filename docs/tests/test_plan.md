@@ -1,4 +1,4 @@
-# Test Plan document for a Bookstore E-commerce Platform
+# Test Plan document for a Bookstore E-commerce Application
 
 **Level:** Intermediate QA
 **Course:** Software Testing & Quality Assurance  
@@ -21,7 +21,7 @@ Environment:Latest 2 of Chrome/Firefox/Safari/Microoft Edge; responsive breakpoi
 
 ### Features Under Test
 
-- Book catalog & earch functionality
+- Book catalog & search functionality
 - User accounts & authentication
 - Shopping cart & checkout process
 - Inventory management
@@ -138,4 +138,4 @@ This test plan defines the strategy for validating the Bookstore App’s core fe
 - Any security/A11y compliance defects are Critical.
 
 ### If exit criteria pass:
-- testing is complete and product may proceed to release.
+- Testing is complete and product may proceed to release.

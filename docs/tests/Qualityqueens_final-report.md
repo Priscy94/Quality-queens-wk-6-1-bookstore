@@ -1,8 +1,17 @@
 # Quality Queens Final Test Report for an E-commerce Bookstore Application
+**Document ID:** TR-BOOK-2025-001
 **Level:** Intermediate QA 
 **Course:** Software Testing & Quality Assurance 
 **Submission Date:** 2025-11-18
 **Version:** 1.0.0
+
+## Team Information
+
+| Role          | Name                | Responsibilities                                         |
+| ------------- | ------------------- | -------------------------------------------------------- |
+| Test Manager  | Prisca Wamboka      | Planning, scheduling, coordination, metric tracking      |
+| Risk Analyst  | Ivy Nagide          | Risk identification, prioritization, test design linkage |
+| Test Executor | Thembisile Nkambule | Execution, evidence capture, defect logging| 
 
 ## Executive Summary
 This report presents the results of comprehensive testing conducted on the Bookstore e-commerce application, version 1.0.0 from 0ctober 31, 2025 to November 18, 2025. The testing focused on validating core e-commerce functionality, including book browsing, shopping cart operations, the checkout and payment process, and basic admin inventory management.
@@ -20,55 +29,57 @@ The QA team **DOES NOT RECOMMEND** release in the current state due to the prese
 The primary objective of this testing cycle was to evaluate the quality, functionality and usability of the E-commerce Bookstore application before its initial release. Specifically, our testing aimed to:
 - Validate that all core e-commerce features function according to specifications, particularly book catalog browsing, search, shopping cart and Paystack payment integration.
 - Ensure the application provides a consistent and responsive experience across different browsers and devices.
-
 - Verify the security and validation of user inputs, especially in the checkout form and payment flow.
 - Assess the functionality of the administrative interface for inventory management.
 
-### 2. Areas Covered
-#### 2.1 Functional Testing
-The following functional areas were thoroughly tested:
-- Book Catalog & Search
-- Browsing all books
-- Search by full title, partial keyword and author
-- Case-insensitive search
-- "No results" message handling
-- Shopping Cart & Checkout
-- Add/remove items
-- Update item quantity
-- Calculate subtotal, tax (8%) and total
-- Form validation (required fields, email format)
-- Order summary review
-- Payment Processing
-- Integration with Paystack gateway
-- Handling of successful, failed and cancelled payments
-- Currency support validation (NGN, GHS, USD, ZAR)
-- Admin Inventory Management
-- Admin authentication and authorization
-- Create, Read, Update, Delete (CRUD) operations for books (Partially tested, major issues found)
+## 2. Areas Covered
 
-#### 2.2 Non-Functional Testing
+### 2.1 Functional Testing
+The following functional areas were thoroughly tested:
+- **Book Catalog & Search**
+  - Browsing all books
+  - Search by full title, partial keyword, and author
+  - Case-insensitive search
+  - "No results" message handling
+- **Shopping Cart & Checkout**
+  - Add/remove items
+  - Update item quantity
+  - Calculate subtotal, tax (8%), and total
+  - Form validation (required fields, email format)
+  - Order summary review
+- **Payment Processing**
+  - Integration with Paystack gateway
+  - Handling of successful, failed, and cancelled payments
+  - Currency support validation (NGN, GHS, USD, ZAR)
+- **Admin Inventory Management**
+  - Admin authentication and authorization
+  - Create, Read, Update, Delete (CRUD) operations for books (Partially tested, major issues found)
+
+### 2.2 Non-Functional Testing
 The following non-functional areas were tested:
-- Compatibility Testing
-Testing across Chrome v119, Firefox v118 and Edge v119
-- Responsive design on standard PC, Tablet and Mobile screen sizes
-- Usability Testing
-- Navigation flow and intuitive design
-- Clarity of error messages
-- Security Hygiene
-- Input validation on checkout form
-  
-### 3. Areas Not Covered
+- **Performance Testing**
+  - Response time for critical user journeys (browsing, search, checkout) was validated through automated Selenium scripts.
+- **Compatibility Testing**
+  - Testing across Chrome v119, Firefox v118, and Edge v119
+  - Responsive design on standard PC, Tablet, and Mobile screen sizes
+- **Usability Testing**
+  - Navigation flow and intuitive design
+  - Clarity of error messages
+- **Security Hygiene**
+  - Input validation on checkout form
+
+## 3. Areas Not Covered
+
 The following areas were not included in this testing cycle:
-- Backend API Integration Testing
-Reason: Focus of this cycle was on front-end functionality and user workflows.
-- Performance/Load Testing
-Reason: This is scheduled for a subsequent cycle after core functional issues are resolved.
-- Full Accessibility Audit
-Reason: Basic keyboard navigation was tested, but a full audit with screen readers is pending.
-- Payment Gateway Security Penetration Testing
-Reason: Relies on the security of the third-party Paystack service.
+- **Backend API Integration Testing**
+  Reason: Focus of this cycle was on front-end functionality and user workflows.
+- **Full Accessibility Audit**
+  Reason: Basic keyboard navigation was tested, but a full audit with screen readers is pending.
+- **Payment Gateway Security Penetration Testing**
+   Reason: Relies on the security of the third-party Paystack service.
 
 ### 4. Testing Approach
+
 #### 4.1 Test Strategy
 Our testing approach combined manual and automated testing to ensure comprehensive coverage.
 **Manual Testing:** The majority of test cases were executed manually to explore UI behavior and user experience thoroughly.
@@ -205,6 +216,6 @@ The following table shows how key functional requirement areas were validated th
 
 | Role | Name | Approval Date | Signature | Notes |
 |------|------|---------------|-----------|-------|
-| Test Manager | Prisca Wamboka | | [P.W] | Cannot approve release due to critical open defects. |
-| Risk Analyst | Ivy Nagide | 18/11/2025 | [I.V] | Confirms the identified risks and mitigation strategies documented in this report are accurate. |
-| Test Executor | Thembisile Nkambule | 18/11/2025 | [T.N] | Confirms all test results and findings documented in this report are accurate.|
+| Test Manager | Prisca Wamboka |18/11/2025| [P.W] | Cannot approve release due to critical open defects. |
+| Risk Analyst | Ivy Nagide |18/11/2025| [I.V] | Confirms the identified risks and mitigation strategies documented in this report are accurate. |
+| Test Executor | Thembisile Nkambule |18/11/2025| [T.N] | Confirms all test results and findings documented in this report are accurate.|
