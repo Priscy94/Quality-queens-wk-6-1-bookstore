@@ -121,6 +121,8 @@ A total of 9 defects were identified during the testing cycle, categorized by se
 #### 5.3 Defect Trend Analysis
 - Defects were logged consistently throughout the testing cycle, with a concentration of critical issues found in the Admin and Cart modules during the final execution phase. The open defect count remains high, indicating the application is not yet stable for release.
 
+**Most Critical defect:** 
+
 ### 6. Test Environment
 #### Client Environment:
 
@@ -163,6 +165,8 @@ The remaining risks associated with releasing the application are:
 - Missing User Confirmations: MEDIUM RISK
 **Impact:** Poor user experience leading to accidental data loss.
 **Mitigation:** Should be addressed before release.
+  ![TC-ADMIN-04](screenshots/TC-ADMIN-03.png)
+  ![TC-CART-05](screenshots/TC-CART-05.png)
 
 ## 7.4 Release Recommendation & Risk-Based Mitigations
 - Based on our comprehensive testing and the current status of the application, the QA team **DOES NOT RECOMMEND RELEASE** for Bookworm's Corner v1.0.0.
