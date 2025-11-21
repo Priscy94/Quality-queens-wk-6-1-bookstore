@@ -1,0 +1,1 @@
+https://gamma.app/docs/E-commerce-Bookstore-Quality-Assurance-Report-hdkwjf2q4en2zkc?mode=doc
